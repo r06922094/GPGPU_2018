@@ -1,0 +1,1 @@
+nvcc -std=c++11 -c ./lab1.cu;nvcc -std=c++11 ./lab1.o ./main.cu;./a.out;avconv -i ./result.y4m ./result.mkv;
